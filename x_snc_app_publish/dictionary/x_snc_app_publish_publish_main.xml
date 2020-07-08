@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="publish main" max_length="40" name="x_snc_app_publish_publish_main" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
